@@ -92,6 +92,7 @@ Before you begin, ensure you have the following installed:
    NODE_ENV=development
 
    # Database Configuration
+   DB_TYPE=mongodb
    DB_HOST=localhost
    DB_PORT=27017
    DB_NAME=school_management
@@ -130,7 +131,7 @@ Before you begin, ensure you have the following installed:
 
 ## ⚙️ Configuration
 
-The application can be configured using environment variables. See the `.env.example` file for all available configuration options.
+The application can be configured using environment variables. Copy the `.env` configuration example from the installation section above and adjust the values according to your environment.
 
 ### Database Options
 
@@ -234,7 +235,7 @@ node-school/
 ├── tests/               # Test files
 ├── docs/                # Documentation
 ├── public/              # Static files
-├── .env.example         # Example environment variables
+├── .env                 # Environment variables (create from example in installation section)
 ├── .gitignore          # Git ignore file
 ├── package.json        # Project dependencies
 ├── README.md           # This file
