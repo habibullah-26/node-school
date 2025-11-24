@@ -131,7 +131,7 @@ Before you begin, ensure you have the following installed:
 
 ## ⚙️ Configuration
 
-The application can be configured using environment variables. Copy the `.env` configuration example from the installation section above and adjust the values according to your environment.
+The application can be configured using environment variables. Use the environment variables shown in the Installation section above (step 3) and adjust the values according to your environment.
 
 ### Database Options
 
@@ -235,7 +235,7 @@ node-school/
 ├── tests/               # Test files
 ├── docs/                # Documentation
 ├── public/              # Static files
-├── .env                 # Environment variables (create from example in installation section)
+├── .env                 # Environment variables (create from step 3 in Installation section)
 ├── .gitignore          # Git ignore file
 ├── package.json        # Project dependencies
 ├── README.md           # This file
